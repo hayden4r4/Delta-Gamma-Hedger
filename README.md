@@ -1,6 +1,8 @@
 # Delta-Gamma-Hedger
 Hedges delta and readjusts based on a user-defined interval.  Uses TDameritrade for data and orders, making use of Alex Golec's tda-api.
 
+Trading delta neutral can be useful for going long/short vol along with other strategies, by neutralizing directional movements effect on delta & gamma, with some slippage.
+
 ### TO USE: 
 First set paths to your TDAmeritrade variables along with your choice of webdriver, if you need help I recommend reading the docs for tda-api https://tda-api.readthedocs.io/en/latest/auth.html, or TDAmeritrade's documentation. A forewarning, getting the credentials set up can be difficult.
 
@@ -19,4 +21,4 @@ Please feel free to fork/contribute.
 
 
 ## Disclosure:
-I have yet to test this script in a live market, only offline testing to ensure orders are placed properly.  I have attempted to make this code as solid as possible, as I do plan on using this myself occasionally, however it is up to you to evaluate the code and determine if it accomplishes what you seek and does so correctly, **I highly encourage you to do this**.  I will note that this is my first automated trading project, I do not consider myself a professional coder, therefore **please thoroughly evaluate before using this code**. While delta neutral strategies may have a high win rate, they also have extreme long tail risk, please consider and understand the risks of delta neutral before doing so.
+I have yet to test this script in a live market, only offline testing to ensure orders are placed properly.  I have attempted to make this code as solid as possible, as I do plan on using this myself occasionally, however it is up to you to evaluate the code and determine if it accomplishes what you seek and does so correctly, **I highly encourage you to do this**.  I will note that this is my first automated trading project, I do not consider myself a professional coder, therefore **please thoroughly evaluate before using this code**. While delta neutral strategies may have a high win rate, they also have extreme long tail risk, please consider and understand the risks of delta neutral trading before doing so.
