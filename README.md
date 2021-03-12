@@ -1,7 +1,7 @@
 # Delta-Gamma-Hedger
 Hedges delta and readjusts based on a user-defined interval.  Uses TDameritrade for data and orders, making use of Alex Golec's tda-api.
 
-Trading delta neutral can be useful for going long/short vol along with other strategies, by neutralizing directional movements effect on delta & gamma, with some slippage.
+Trading delta neutral can be useful for going long/short vol along with other strategies, by neutralizing the direct effects directional movements, with some slippage.
 
 ### TO USE: 
 First set paths to your TDAmeritrade variables along with your choice of webdriver, if you need help I recommend reading the docs for tda-api https://tda-api.readthedocs.io/en/latest/auth.html, or TDAmeritrade's documentation. A forewarning, getting the credentials set up can be difficult.
